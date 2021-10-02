@@ -1,0 +1,60 @@
+.divFilmes{
+    width: 100%;
+    height: 100%;
+}
+
+
+.divCard{
+    background-color: #CCC;
+    width: 200px;
+    height: 400px;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+}
+
+.divPoster{
+    background-color: red;
+    width: 100%;
+    height: 70%;
+    padding: 1px;
+}
+
+.divPoster img{
+    width: 100%;
+    height: 100%;
+}
+
+.divTitulo{
+    text-align: center;
+    width: 100%;
+    background-color: #AAA;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 1px;
+}
+.divInformacoes{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.divRodape{
+    width: 100%;
+    padding: 1px;
+}
+
+.buttonRodape{
+    width: 100%;
+    background-color:cornflowerblue;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+.buttonComprado{
+    width: 100%;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
