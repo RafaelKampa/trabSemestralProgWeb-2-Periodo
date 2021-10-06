@@ -1,0 +1,49 @@
+.campo { 
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    font-family: Arial;
+    margin-top: 3px;
+
+}
+
+.fonte{
+    font-family: Helvetica;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+.externa{
+    margin: 0 auto;  
+
+}
+
+
+.interna{
+    margin: 0 auto;
+    width: 250px;
+
+}
+
+
+
+.botao {
+    background-color: #727272;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color: #8a8a8a;
+
+}
