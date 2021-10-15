@@ -1,4 +1,9 @@
-.campo { 
+
+*{  /* aplica para a página inteira*/
+    background-color: #181F42;
+}
+
+.campo { /* aplica para o campo de preenchimento*/
     width: 250px;
     padding-top: 10px;
     padding-left: 20px;
@@ -11,39 +16,47 @@
 
 }
 
-.fonte{
-    font-family: Helvetica;
+.titulo{ 
+    font-family: Quattrocento;
     font-size: 45px;
     text-align: center;
-
+    color: #ccc;
 }
 
-.externa{
+.fonte{ 
+    font-family: Quattrocento;
+    font-size: 16px;
+    text-align: center;
+    color: #ccc;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.externa{ /* div externa*/
     margin: 0 auto;  
-
 }
 
 
-.interna{
-    margin: 0 auto;
+.interna{ /* div interna*/
+    margin: 200px auto;
     width: 250px;
-
 }
 
 
 
 .botao {
-    background-color: #727272;
+    background-color: #AA313B;
     width: 250px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 0px;
     color: white;
-    border: none;
+    border: solid 1px #AA313B;
     cursor: pointer;
-
+    border-radius: 2px;
 }
 
 .botao:hover{
-    background-color: #8a8a8a;
+    background-color: #9c2e37;
 
 }
