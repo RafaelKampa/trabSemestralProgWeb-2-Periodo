@@ -1,48 +1,54 @@
 
 *{  /* aplica para a página inteira*/
-    background-color: #181F42;
+    background-color: #BAC0CF;
+    margin: 0%;
+    
+}
+
+
+.externa{ /* div externa*/
+    margin: 0 auto; 
+}
+
+
+.interna{ /* div interna*/
+    margin: 0px auto;
+    width: 250px;
+    height: 575px;
+}
+
+.img-dragon{
+    height: 150px;
+    padding: 0% 20% 10%; /* superior | horizontal | inferior */
+}
+
+
+.titulo{ 
+    font-family: Quattrocento;
+    font-size: 45px;
+    margin-top: auto;
+    text-align: center;
+    color: white;
 }
 
 .campo { /* aplica para o campo de preenchimento*/
     width: 250px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border: solid 1px #ccc;
+    padding: 5% 10%; /* vertical | horizontal */
+    border: solid 1px white;
     border-radius: 2px;
     font-family: Arial;
     margin-top: 3px;
 
 }
 
-.titulo{ 
-    font-family: Quattrocento;
-    font-size: 45px;
-    text-align: center;
-    color: #ccc;
-}
-
-.fonte{ 
+.ou{ 
     font-family: Quattrocento;
     font-size: 16px;
     text-align: center;
-    color: #ccc;
+    color: white;
     margin-top: 15px;
     margin-bottom: 0px;
 }
-
-.externa{ /* div externa*/
-    margin: 0 auto;  
-}
-
-
-.interna{ /* div interna*/
-    margin: 200px auto;
-    width: 250px;
-}
-
-
 
 .botao {
     background-color: #AA313B;
@@ -58,5 +64,12 @@
 
 .botao:hover{
     background-color: #9c2e37;
+}
 
+footer{ 
+   
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #6F7889; 
 }
