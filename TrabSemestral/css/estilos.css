@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #BAC0CF;
+    margin:0 auto;
+}
+
+ul{
+    padding: 0 px! important;
+}
+
+.header-content{
+    width: 100%;
+    background-color: white;
+    height:60px;
+    
+}
+
+.slogan{
+    color:#AA313B;
+}
+
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.header-menu{
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    color:#AA313B;
+    margin-left: 10px;
+}
+.menu ul li a{
+    color:#AA313B;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.menu{
+    width: 70%;
+    
+    float: left;
+}
+
+.busca{
+    width: 30%;
+    float:left;
+}
+
+.main-menu{
+    width: 100%;
+    float:left;
+    position: relative;
+}
