@@ -5,33 +5,62 @@
         <script src="cadastro.js"></script>
     </head>
     <body>
+    <img id= "imgDragon" src= "C:\xampp\htdocs\ProgramacaoWeb\TrabSemestralProgWeb\trabSemestralProgWeb\imagens\dragon.png" widht="150px" height="150px"/>
         <div class= "title">
             Cadastro de novo Usuário
         </div>
-        <div class= "box-cadastro">
-                <div class= "label">
-                Nome:
-                <input name= "inputCadastro" id= "inputCadastro" placeholder= "Nome"> </input><br>
+        <div class="cardCadastro">
+            <div class="linha">
+                <div class="texto column label">
+                    <label for="txtLogon"><b>Nome</b></label>
                 </div>
-                <div class= "label">
-                E-mail:
-                <input name= "inputCadastro" id= "inputCadastro" placeholder= "E-mail"> </input><br>
+                <div class="boxInput column input">
+                    <input type="text" id="txtLogon" placeholder= "Nome"/>
                 </div>
-                <div class= "label">
-                Senha:
-                <input name= "inputCadastro" id= "inputCadastro" placeholder= "Senha"> </input><br>
+            </div>
+            <div class="linha">
+                <div class="texto column label">
+                    <label for="txtLogon"><b>Sobrenome</b></label>
                 </div>
-                <div class= "label">
-                Confirmar Senha:
-                <input name= "inputCadastro" id= "inputCadastro" placeholder= "Confirmar Senha"> </input><br>
+                <div class="boxInput column input">
+                    <input type="text" id="txtLogon" placeholder= "Sobrenome"/>
                 </div>
-                <div class= "button">
-                    <button class= "btnCadastrar" id= "btnCadastrar"> Cadastrar </button>
+            </div>
+            <div class="linha">
+                <div class="texto column label">
+                    <label for="txtLogon"><b>Nickname</b></label>
                 </div>
-                <div class= "button">
-                    <button class= "btnCadastrar" id= "btnCancelar"> Cancelar </button>
-                </div> 
-            </div>  
+                <div class="boxInput column input">
+                    <input type="text" id="txtLogon" placeholder= "Nome de Usuário"/>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="texto column label">
+                    <label for="txtLogon"><b>E-mail</b></label>
+                </div>
+                <div class="boxInput column input">
+                    <input type="text" id="txtLogon" placeholder= "E-mail"/>
+                </div>
+            <div class="linha">
+                <div class="texto column label">
+                    <label for="txtPassword"><b>Senha</b></label>
+                </div>
+                <div class="boxInput column input">
+                    <input type="password" id="passwordCadastro" placeholder= "Senha" />
+                </div>
+            <div>
+            <div class="linha">
+                <div class="texto column label">
+                    <label for="txtPassword"><b>Confirmar Senha</b></label>
+                </div>
+                <div class="boxInput column input">
+                    <input type="password" id="confirmarPassword" placeholder= "Confirmar Senha" />
+                </div>
+            <div>
+                <a href="index.html">
+                    <button class= "botaoCadastrar"><b>Concluir Cadastro</b></button>
+                </a>
+            </div>
         </div>
     </body>
 </html>
