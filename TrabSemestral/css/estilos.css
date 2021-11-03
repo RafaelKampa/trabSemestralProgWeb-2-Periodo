@@ -5,59 +5,61 @@ body{
     margin:0 auto;
 }
 
-ul{
-    padding: 0 px! important;
-}
-
-.header-content{
-    width: 100%;
-    background-color: white;
-    height:60px;
-    
-}
-
 .slogan{
-    color:#AA313B;
-}
-
-main{
-    margin: 0 auto;
-    width: 980px;
-    position: relative;
-}
-
-.header-menu{
     background-color: white;
-    width: 980px;
-    margin: 0 auto;
-    
+    color:#AA313B;
+    text-align: center;
 }
 
-.menu ul li{
-    display: inline-block;
-    color:#AA313B;
-    margin-left: 10px;
-}
-.menu ul li a{
-    color:#AA313B;
-    text-decoration: none;
-    font-size: 17px;
-    text-transform: uppercase;
+.cabecalho{
+    background-color: #6F7889;
+    height: 100px;
 }
 
-.menu{
-    width: 70%;
-    
+#imgDragons{
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+.boxCentralMenuCabecalho{
     float: left;
+    height: 40px;
+    width: 165px;
+    margin-top: -60px;
+    margin-left: 45%;
+    margin-right: 100px;
+
 }
 
-.busca{
-    width: 30%;
-    float:left;
+.btnMenuCabecalho{
+    margin-left: 20px;
+    background-color: #181F42;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
-.main-menu{
-    width: 100%;
-    float:left;
+.btnIcones{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.iconesCabecalho{
+    float: left;
+    height: 40px;
+    margin-top: -65px;
+    margin-left: 80%;
+}
+.centro{
     position: relative;
+    background-color: #BAC0CF;
+    height: 71%;
+}
+.rodape{
+    position: relative;
+    background-color: #6F7889;
+    height: 100px;
+
 }
