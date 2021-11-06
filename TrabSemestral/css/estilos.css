@@ -1,5 +1,7 @@
 body{
-    background-image: url(../img/circuito.jpg);
+    background-color: #181F42;
+    background-position: 0 120px;
+    background-image: url(../img/shenlong.png);
     background-size: cover;
     margin:0 auto;
 }
@@ -62,29 +64,106 @@ body{
 .corpo{
     position: absolute;
     width: 100%;
-    height: 1000px;
+    height: 900px;
 }
 .cardMensagemCativante{
+    font-family: Quattrocento;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 50px;
     width: 300px;
+    text-size-adjust: 45px;
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     background-color: #AA313B;
     color: white;
 }
-
-.btnCadastrar{
+#btnCadastrar{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    background-color: #6E2D40;
+    width: 250px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: white;
+    border: solid 1px #AA313B;
+    cursor: pointer;
+    border-radius: 2px;
+}
+#produtos{
+    width: 100%;
+    height: 100%;
+}
+.tituloprodutos{
+    font-family: Quattrocento;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    text-size-adjust: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #AA313B;
+    color: white;
+}
+.div-card{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 250px;
+    background-color: #6F7889;
+    border-radius: 10px;
+    float: left;
+}
 
+.div-card-img img{
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.div-titulo{
+    color: black;
+    background-color: #BAC0CF;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 4px;
+}
+.div-informacoes{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+.div-card-comprar{
+    text-align: center;
+    background-color: #AA313B;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    padding-top: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div-card-comprar:hover{
+    background-color: #8C5F61;
+}
+.div-card-comprado{
+    background-color: #6E2D40;
+}
+.div-card-comprado:hover{
+    background-color: #6E2D40;
 }
 .rodape{
     position: fixed;
