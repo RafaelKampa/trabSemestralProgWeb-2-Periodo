@@ -1,0 +1,102 @@
+body {
+    background-color: #BAC0CF;
+    color: #AA313B;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#imgDragon{
+    position: absolute;
+    top: 1%;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+.externa{ /* div externa*/
+    margin: 200px auto; 
+}    
+
+
+.interna{ /* div interna*/
+    margin: 50px auto;
+    width: 250px;
+    height: 500px;
+}
+
+
+.img-dragon{
+    height: 150px;
+    padding: 0% 20% 10%; /* superior | horizontal | inferior */
+}
+
+
+.titulo{ 
+    font-family: Quattrocento;
+    font-size: 45px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 500px;
+}
+
+.campo { /* aplica para o campo de preenchimento*/
+    width: 250px;
+    padding: 5% 10%; /* vertical | horizontal */
+    border: solid 1px white;
+    border-radius: 2px;
+    font-family: Arial;
+    margin-top: 3px;
+
+}
+
+.ou{ 
+    font-family: Quattrocento;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.botao {
+    background-color: #AA313B;
+    width: 250px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: white;
+    border: solid 1px #AA313B;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.botao:hover{
+    background-color: #9c2e37;
+}
+
+#botaoIcone{
+    cursor: pointer;
+    background-color: #6F7889;
+    border: #6F7889;
+    font-size: 0;
+
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #6F7889;
+    color: #FFF;
+    width: 100%;
+    height: aut;    
+    text-align: center;
+    
+}  

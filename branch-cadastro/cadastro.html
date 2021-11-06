@@ -1,66 +1,32 @@
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="cadastro.css"/>
-        <script src="cadastro.js"></script>
+<head>
+        <meta charset="utf-8">  
+        <link rel="stylesheet" href="css/cadastro.css">
     </head>
     <body>
-    <img id= "imgDragon" src= "C:\xampp\htdocs\ProgramacaoWeb\TrabSemestralProgWeb\trabSemestralProgWeb\imagens\dragon.png" widht="150px" height="150px"/>
-        <div class= "title">
-            Cadastro de novo Usuário
+    
+        <div class="externa">
+            <div class="titulo"> Cadastro de Novo Usuário </div>
+            <div class="interna">
+                <img src="img/dragon.png" id= "imgDragon" widht="150px" height="150px">
+                <input class="campo" type="text" placeholder="Nome de Usuário"/>
+                <input class="campo" type="text" placeholder="E-mail"/>
+                <input class="campo" type="password"  placeholder="Senha" />
+                <input class="campo" type="password"  placeholder="Confirmar Senha" />
+                <a href=""><button class="botao"> Cadastrar </button></a>
+                <p class="ou"> ou </p>
+                <a href=""> <button class="botao"> Voltar </button> </a> 
+
+            </div>
+
         </div>
-        <div class="cardCadastro">
-            <div class="linha">
-                <div class="texto column label">
-                    <label for="txtLogon"><b>Nome</b></label>
-                </div>
-                <div class="boxInput column input">
-                    <input type="text" id="txtLogon" placeholder= "Nome"/>
-                </div>
-            </div>
-            <div class="linha">
-                <div class="texto column label">
-                    <label for="txtLogon"><b>Sobrenome</b></label>
-                </div>
-                <div class="boxInput column input">
-                    <input type="text" id="txtLogon" placeholder= "Sobrenome"/>
-                </div>
-            </div>
-            <div class="linha">
-                <div class="texto column label">
-                    <label for="txtLogon"><b>Nickname</b></label>
-                </div>
-                <div class="boxInput column input">
-                    <input type="text" id="txtLogon" placeholder= "Nome de Usuário"/>
-                </div>
-            </div>
-            <div class="linha">
-                <div class="texto column label">
-                    <label for="txtLogon"><b>E-mail</b></label>
-                </div>
-                <div class="boxInput column input">
-                    <input type="text" id="txtLogon" placeholder= "E-mail"/>
-                </div>
-            <div class="linha">
-                <div class="texto column label">
-                    <label for="txtPassword"><b>Senha</b></label>
-                </div>
-                <div class="boxInput column input">
-                    <input type="password" id="passwordCadastro" placeholder= "Senha" />
-                </div>
-            <div>
-            <div class="linha">
-                <div class="texto column label">
-                    <label for="txtPassword"><b>Confirmar Senha</b></label>
-                </div>
-                <div class="boxInput column input">
-                    <input type="password" id="confirmarPassword" placeholder= "Confirmar Senha" />
-                </div>
-            <div>
-                <a href="index.html">
-                    <button class= "botaoCadastrar"><b>Concluir Cadastro</b></button>
-                </a>
-            </div>
-        </div>
-    </body>
+                <footer>
+        
+            <a href="https://www.facebook.com/"> <button id="botaoIcone" > <img src="img/facebook (1).png" width="30px"> </a> </button>
+            <a href="https://www.instagram.com/"> <button id="botaoIcone"> <img src="img/instagram.png" width="30px"> </a> </button> 
+            <a href="https://www.twitter.com/"> <button id="botaoIcone"> <img src="img/twitter.png" width="30px"> </a> </button>  
+            <a href="https://www.pinterest.com/"> <button id="botaoIcone"> <img src="img/pinterest.png" width="30px"> </a> </button> <br>
+            Grupo 10 productions
+    
+        </footer>
 </html>
