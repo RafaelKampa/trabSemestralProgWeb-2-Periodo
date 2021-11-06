@@ -30,7 +30,7 @@ body {
 }
 
 
-.img-dragon{
+#img-dragon{
     height: 150px;
     padding: 0% 20% 10%; /* superior | horizontal | inferior */
 }
@@ -88,8 +88,6 @@ body {
     font-size: 0;
 
 }
-
-
 footer {
     position: fixed;
     bottom: 0;
