@@ -1,19 +1,26 @@
 body{
-    width: 100%;
-    height: 100%;
-    background-color: #BAC0CF;
+    background-image: url(../img/circuito.jpg);
+    background-size: cover;
     margin:0 auto;
 }
-
+.sloganCabecalho{
+    margin-top: 0%;
+    position: fixed;
+    z-index: +1;
+    width: 100%;
+}
 .slogan{
     background-color: white;
     color:#AA313B;
     text-align: center;
+    height: 20px;
+    width: 100%;
 }
 
 .cabecalho{
     background-color: #6F7889;
     height: 100px;
+    width: 100%;
 }
 
 #imgDragons{
@@ -52,14 +59,38 @@ body{
     margin-top: -65px;
     margin-left: 80%;
 }
-.centro{
-    position: relative;
-    background-color: #BAC0CF;
-    height: 71%;
+.corpo{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+}
+.cardMensagemCativante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #AA313B;
+    color: white;
+}
+
+.btnCadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
 }
 .rodape{
-    position: relative;
+    position: fixed;
+    z-index: +1;
+    bottom: 0;
     background-color: #6F7889;
-    height: 100px;
-
+    height: 50px;
+    width: 100%;
 }
