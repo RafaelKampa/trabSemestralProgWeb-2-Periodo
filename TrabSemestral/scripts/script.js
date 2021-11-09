@@ -1,4 +1,4 @@
-var array_produtos = [[0, 'Celeste', 'celeste.jpg','Aventura',false],[1,'Battle Chef Brigade', 'chef.png', 'Puzzle', false],[2,'Katana ZERO','katana.jpg','Ação',false],[3,'Stardew Valley','stardew.png','Board Game',false],[4,'Overcooked!','overcooked.jfif','Estratégia',false],[5,'Limbo','limbo.jpg','Puzzle',false]];
+var array_produtos = [[0, 'Celeste', 'celeste.jpg','Aventura',false],[1,'Battle Chef Brigade', 'chef.png', 'Puzzle', false],[2,'Katana ZERO','katana.jpg','Ação',false],[3,'Stardew Valley','stardew.png','Board Game',false],[4,'Overcooked!','overcooked.jfif','Estratégia',false],[5,'Limbo','limbo.jpg','Puzzle',false],[6,'Terraria','terraria.jfif','Aventura',false],[7,'Cuphead','cuphead.jpg','Aventura',false],[8,'Hollow Knight','hollow.jpg','Aventura',false]];
 var carrinho = [];
 array_depoimentos = [[0, 'Lucas', 'Achei o site ótimo'], [1, 'Rafael', 'Adoro jogos Indie e nunca tinha encontrado um site somente sobre isso!'], [2, 'Sofia', 'Um dos melhores sites de jogos que já visitei!']];
 window.onload = function(){
@@ -11,7 +11,7 @@ function montarCards(){
     document.getElementById("produtos").innerHTML = "";
 
 
-    for(var i = 0; i < array_produtos.length; i++)
+    for(var i = 0; i < 7; i++)
     {
         var conteudo = "";
         conteudo += '<div class="div-card">';

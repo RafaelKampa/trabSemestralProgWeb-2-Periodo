@@ -1,5 +1,3 @@
-
-
 window.onload = function(){
 
     var carrinho = JSON.parse(window.localStorage.getItem("carrinho"));

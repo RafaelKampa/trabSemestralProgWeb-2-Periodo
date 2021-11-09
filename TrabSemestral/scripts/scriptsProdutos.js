@@ -1,4 +1,4 @@
-var array_produtos = [[0, 'Celeste', 'celeste.jpg','Aventura',false],[1,'Battle Chef Brigade', 'chef.png', 'Puzzle', false],[2,'Katana ZERO','katana.jpg','Ação',false],[3,'Stardew Valley','stardew.png','Board Game',false],[4,'Overcooked!','overcooked.jfif','Estratégia',false],[5,'Limbo','limbo.jpg','Puzzle',false],[6,'Terraria','terraria.jfif','Aventura',false]];
+var array_produtos = [[0, 'Celeste', 'celeste.jpg','Aventura',false],[1,'Battle Chef Brigade', 'chef.png', 'Puzzle', false],[2,'Katana ZERO','katana.jpg','Ação',false],[3,'Stardew Valley','stardew.png','Board Game',false],[4,'Overcooked!','overcooked.jfif','Estratégia',false],[5,'Limbo','limbo.jpg','Puzzle',false],[6,'Terraria','terraria.jfif','Aventura',false],[7,'Cuphead','cuphead.jpg','Aventura',false],[8,'Hollow Knight','hollow.jpg','Aventura',false]];
 var carrinho = [];
 
 window.onload = function(){
@@ -55,9 +55,4 @@ function comprar(id){
 
 }
 
-function mudaPagina(){
-
-    window.location.href = "paginas/carrinho.html";
-
-}
 
